@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:background="@drawable/background1"
+              android:gravity="center_vertical|center_horizontal">
+
+    <Button
+            android:id="@+id/btnAddItem"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="40dp"
+            android:text="ADD ITEMS"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="serif"
+            android:background="@drawable/transparent_mosaic"
+            android:elevation="4dp" />
+
+    <Button
+            android:id="@+id/btnSearchItem"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="40dp"
+            android:text="FIND ITEMS"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="serif"
+            android:background="@drawable/transparent_mosaic"
+            android:elevation="4dp"/>
+
+    <Button
+            android:id="@+id/btnViewItems"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="40dp"
+            android:text="MY STORAGE"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="serif"
+            android:background="@drawable/transparent_mosaic"
+            android:elevation="4dp"/>
+</LinearLayout>

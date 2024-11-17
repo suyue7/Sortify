@@ -1,0 +1,20 @@
+<!-- res/drawable/transparent_mosaic.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 模糊效果背景层 -->
+    <item>
+        <shape
+                android:shape="rectangle">
+            <!-- 半透明的白色背景模拟磨砂效果 -->
+            <solid android:color="#80FFFFFF" /> <!-- 50%透明的白色，模拟磨砂效果 -->
+            <corners android:radius="4dp"/> <!-- 可选：添加圆角 -->
+        </shape>
+    </item>
+
+    <!-- 透明背景层 -->
+    <item>
+        <shape
+                android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> <!-- 透明背景 -->
+        </shape>
+    </item>
+</layer-list>

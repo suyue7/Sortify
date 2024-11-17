@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:background="@drawable/background1">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="130dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal">
+
+        <EditText
+                android:id="@+id/etSearchItemName"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="请输入物品名称："
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:background="@drawable/transparent_mosaic" />
+
+        <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="搜索" />
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/lvItems"
+            android:layout_width="300dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/transparent_mosaic"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/background1">
+
+    <!-- 物品名称输入框 -->
+    <EditText
+            android:id="@+id/etItemName"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="请输入物品名称："
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@drawable/transparent_mosaic"
+            android:padding="12dp"
+            android:elevation="4dp"/>
+
+    <!-- 存放地点选择下拉菜单 -->
+    <Spinner
+            android:id="@+id/spLocation"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@drawable/transparent_mosaic"
+            android:padding="12dp"
+            android:elevation="4dp"/>
+
+    <!-- 收纳位置选择下拉菜单 -->
+    <Spinner
+            android:id="@+id/spStorageLocation"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@drawable/transparent_mosaic"
+            android:padding="12dp"
+            android:elevation="4dp"/>
+
+    <!-- 保存按钮 -->
+    <Button
+            android:id="@+id/btnSaveItem"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:text="保存物品"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="#D3CFA5"
+            android:elevation="4dp"/>
+</LinearLayout>
